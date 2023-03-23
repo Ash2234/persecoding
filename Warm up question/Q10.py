@@ -6,7 +6,7 @@ new_deck=[]
 x2=0
 y2=-1
 n2=0
-while n2<=n or old_deck!=[]:
+while n2<=n and old_deck!=[]:
   while x2<=x:
     new_deck.append(old_deck[x2])
     x2+=1
